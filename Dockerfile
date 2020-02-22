@@ -1,5 +1,10 @@
+# Se deberia bindear el proyecto raiz web a la carpeta /project
 
-# Se deberia bindear el proyecto a la carpeta /project
+# Los parametros de la configuracion de protractor para chrome deberian tener
+# '--headless', '--no-sandbox', '--disable-gpu', '--window-size=1920,1080'
+
+# Para SGE se necesita TARGET_ENV: TST como variable de entorno
+
 FROM node:10
 # Add Google Chrome to aptitude's (package manager) sources
 RUN echo "deb http://dl.google.com/linux/chrome/deb/ stable main" | tee -a /etc/apt/sources.list
