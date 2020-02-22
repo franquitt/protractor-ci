@@ -1,0 +1,1 @@
+protractor config/protractor/protractor.ci.js 
