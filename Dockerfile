@@ -30,7 +30,6 @@ ADD scripts /scripts
 RUN chmod +x /scripts/*
 RUN npm install -g protractor
 RUN webdriver-manager update
-RUN export TARGET_ENV=TST
 # Install AngularJS CLI exclusively
 # Add --unsafe-perm to resolve problems with node-gyp infinite loop on Docker
 #RUN npm install --silent --unsafe-perm -g @angular/cli@1.1.2
