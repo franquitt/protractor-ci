@@ -13,6 +13,7 @@ RUN apt-get -qq install -y --allow-unauthenticated \
   google-chrome-stable \
   gtk2-engines-pixbuf \
   imagemagick \
+  openconnect \
   xfonts-cyrillic \
   xfonts-100dpi \
   xfonts-75dpi \
